@@ -12,7 +12,7 @@ $test = '{"test":{"test":{"test":true}}}' |ConvertFrom-Json
 
 Convert with built-in.  Why are there spaces everywhere? Consistency is nice to have.
 ```
-$test|ConvertTo-json
+$test|ConvertTo-Json
 {
     "test":  {
                  "test":  {
